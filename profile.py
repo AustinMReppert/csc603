@@ -8,5 +8,5 @@ node = request.XenVM("node")
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU20-64-STD"
 node.routable_control_ip = "true"
 
-# Print the RSpec to the enclosing page.
+# Print the RSpec to the enclosing page. 
 portal.context.printRequestRSpec()
